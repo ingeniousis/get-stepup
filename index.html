@@ -5,15 +5,15 @@
     var operatingSystem, link, userAgent = navigator.userAgent || navigator.vendor || window.opera;
     if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i)) {
       operatingSystem = "iOS";
-      link = "https://itunes.apple.com/us/app/fitbit/id462638897?mt=8&uo=4";
+      link = "http://www.thestepupapp.com";
     } else if (userAgent.match(/Android/i)) {
       operatingSystem = "Android";
-      link = "https://play.google.com/store/apps/details?id=com.fitbit.FitbitMobile";
+      link = "https://play.google.com/apps/testing/com.thestepupapp.stepup";
     } else {
       operatingSystem = "Unknown";
       link = "http://www.thestepupapp.com";
     }
-    link = "http://www.thestepupapp.com";
+
     window.location.assign(link);
   </script>
 </head>
