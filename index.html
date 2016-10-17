@@ -17,19 +17,7 @@
   </script>
 
   <script type="text/javascript">
-    var operatingSystem, link, userAgent = navigator.userAgent || navigator.vendor || window.opera;
-    if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i)) {
-      operatingSystem = "iOS";
-      link = "https://itunes.apple.com/app/id979101825";
-    } else if (userAgent.match(/Android/i)) {
-      operatingSystem = "Android";
-      link = "http://play.google.com/store/apps/details?id=com.thestepupapp.stepup";
-    } else {
-      operatingSystem = "Unknown";
-      link = "http://www.thestepupapp.com";
-    }
-
-    window.location.assign(link);
+    window.location.assign("http://www.thestepupapp.com/?r=1");
   </script>
 </head>
 </html>
